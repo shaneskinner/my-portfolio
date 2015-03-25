@@ -6,7 +6,7 @@
     File Name:        index.php
     Author:           Shane Skinner
     Date Created:     03-13-2014
-    Last Revised:     04-22-2014
+    Last Revised:     03-25-2015
     Version:          2.0.2
 -->
 
@@ -14,56 +14,33 @@
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,400italic' rel='stylesheet' 
       type='text/css'>
 
-<!-- Meta Data -->
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     <meta name="author" content="Shane Skinner" />
-    <meta name="description" content="Web Developer Shane Skinner's eResume website." />
+    <meta name="description" content="Shane Skinner is a Front-End Web Developer who codes responsive websites utilizing 
+                                      HTML5, CSS, JavaScript, WordPress, and more technologies." />
     <meta name="keywords" content="Web, Developer, Designer, Software, Website, HTML, HTML5, CSS, CSS3, JavaScript, 
                                    JS, JQuery, PHP, WordPress, WP, Domain, Host, eResume, resume, hire, me, job, 
-                                   seeker, freelance, freelancer, Ledyard, Gales Ferry, Preston, Montville, Uncasville, 
-                                   Norwich, Groton, New London, Hartford, Connecticut, Providence, Westerly, Coventry, 
-                                   Warwick, Rhode, Island, Cape, Cod, Hyannis, Barnstable, Fall River, New Bedford, 
-                                   Massachusetts, MA, CT, RI" />
-    <meta name="geo.region" content="US-CT" />
-    <meta name="geo.placename" content="Ledyard" />
-    <meta name="geo.position" content="41.4794;-72.0432" />
-    <meta name="ICBM" content="41.4794, -72.0432" />
+                                   seeker, freelance, freelancer, Cape, Cod, Hyannis, Barnstable, Fall River, New Bedford, 
+                                   Massachusetts, MA" />
+    <meta name="geo.region" content="US-MA" />
+    <meta name="geo.placename" content="Hyannis" />
+    <meta name="geo.position" content="41.655011;-70.278398" />
+    <meta name="ICBM" content="41.655011, -70.278398" />
 
-<!-- Link to CSS Files -->
     <link href="css/main_styles.css" rel="stylesheet" type="text/css" />
     <!--[if IE]>
       <link href="css/ie.css" rel="stylesheet" type="text/css" /> 
     <![endif]-->
 
-<!-- Link to JavaScript Files -->
-    <script src="js/modernizr.js" type="text/javascript"></script>
-    <script src="js/stringReverse.js" type="text/javascript"></script>
-    <script src="js/showEm.js" type="text/javascript"></script>
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-
-    <script type="text/javascript">
-      jQuery(document).ready(function($){
-
-        /* prepend menu icon */
-        $('.nav-wrap').prepend('<div id="menu-icon">Menu</div>'); 
-
-        /* toggle nav */
-        $("#menu-icon").on("click", function(){
-          $(".nav").slideToggle();
-          $(this).toggleClass("active");
-        });
-      });
-    </script>
-
-    <title>Shane Skinner's eResume</title>
+    <title>Shane Skinner's Website</title>
   </head>
 
   <body>
     <header>
         <aside><?php include "php/mypic.php";?></aside>
         <aside><?php include "php/navmenu.php";?></aside>
-    	  <h1>Shane Skinner's eResume</h1>
+    	  <h1>Welcome to ShaneSkinner.com!</h1>
     </header>
 
     <section class="main">
@@ -71,7 +48,7 @@
     		<h2 class="mainheadings">Front-End Web Developer</h2>
     		<p>Front-End Web Developer with experience coding, testing, debugging, and launching responsive websites 
            that include cross-browser functionalities looking for a full-time opportunity within an organization 
-           that has a good team-oriented learning environment.</p>
+           on Cape Cod that has a good team-oriented learning environment.</p>
     	</article>
     	<article>
     		<h2 class="mainheadings">Skills and Qualifications</h2>
@@ -93,5 +70,25 @@
     <footer>
       <?php include "php/footer.php";?>
     </footer>
+<!-- JavaScript Files -->
+    <script src="js/modernizr.js" type="text/javascript"></script>
+    <script src="js/stringReverse.js" type="text/javascript"></script>
+    <script src="js/showEm.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+
+        /* prepend menu icon */
+        $('.nav-wrap').prepend('<div id="menu-icon">Menu</div>'); 
+
+        /* toggle nav */
+        $("#menu-icon").on("click", function(){
+          $(".nav").slideToggle();
+          $(this).toggleClass("active");
+        });
+      });
+    </script>
   </body>
 </html>
