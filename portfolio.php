@@ -6,16 +6,16 @@
     File Name:        portfolio.php
     Author:           Shane Skinner
     Date Created:     03-26-2014
-    Last Revised:     04-22-2014
+    Last Revised:     03-25-2015
     Version:          2.0
 -->
 
 <!-- Google Fonts -->
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,400italic' rel='stylesheet' 
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,400italic' rel='stylesheet' 
       type='text/css'>
 
-<!-- Meta Data -->
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
     <meta name="author" content="Shane Skinner" />
     <meta name="description" content="Web Developer Shane Skinner's eResume website." />
     <meta name="keywords" content="Web, Developer, Designer, Software, Website, HTML, HTML5, CSS, CSS3, JavaScript, JS, 
@@ -27,34 +27,11 @@
     <meta name="geo.position" content="41.4794;-72.0432" />
     <meta name="ICBM" content="41.4794, -72.0432" />
 
-<!-- Link to CSS Files -->
     <link href="css/main_styles.css" rel="stylesheet" type="text/css" />
     <link href="css/portfolio_styles.css" rel="stylesheet" type="text/css" />
     <!--[if IE]>
       <link href="css/ie.css" rel="stylesheet" type="text/css" /> 
     <![endif]-->
-    
-
-<!-- Link to JavaScript Files -->
-    <script src="js/modernizr.js" type="text/javascript"></script>
-    <script src="js/stringReverse.js" type="text/javascript"></script>
-    <script src="js/showEm.js" type="text/javascript"></script>
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-
-    <script type="text/javascript">
-      jQuery(document).ready(function($){
-
-        /* prepend menu icon */
-        $('.nav-wrap').prepend('<div id="menu-icon">Menu</div>'); 
-
-        /* toggle nav */
-        $("#menu-icon").on("click", function(){
-          $(".nav").slideToggle();
-          $(this).toggleClass("active");
-        });
-      });
-    </script>
 
     <title>Shane Skinner's Portfolio</title>
   </head>
@@ -90,16 +67,6 @@
       </article>
 
       <article>
-        <a href="http://www.ClutteredDesk.com" title="www.cluttereddesk.com" target="_blank">
-           <h3>www.cluttereddesk.com</h3></a>
-        <blockquote>I developed a WordPress blog for a couple of world travelers. They desired a simple site that allows 
-                    them to share pictures and articles regarding their adventures and a page to discuss wine and share 
-                    their ratings and feedback from their Vivino account.</blockquote>
-        <iframe src="http://www.cluttereddesk.com" name="cluttereddesk" height= 600px 
-                width= 100%>ClutteredDesk.com</iframe>
-      </article>
-
-      <article>
         <a href="http://www.shaneskinner.com" title="www.shaneskinner.com"><h3>www.ShaneSkinner.com</h3></a>
         <blockquote>I created this personal portfolio to serve as an eResume. This is v2.0 which was designed with a 
                     simplistic look and feel while showcasing some of my HTML5 and CSS3 capabilities. The site is 
@@ -109,5 +76,26 @@
     <footer>
       <?php include "php/footer.php";?>
     </footer>
+
+<!-- JavaScript Files -->
+    <script src="js/modernizr.js" type="text/javascript"></script>
+    <script src="js/stringReverse.js" type="text/javascript"></script>
+    <script src="js/showEm.js" type="text/javascript"></script>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+
+        /* prepend menu icon */
+        $('.nav-wrap').prepend('<div id="menu-icon">Menu</div>'); 
+
+        /* toggle nav */
+        $("#menu-icon").on("click", function(){
+          $(".nav").slideToggle();
+          $(this).toggleClass("active");
+        });
+      });
+    </script>
   </body>
 </html>
