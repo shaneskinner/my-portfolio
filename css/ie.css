@@ -1,0 +1,53 @@
+﻿/*
+	Program:         Shane Skinner's eResume 
+    File Name:       ie.css
+	Author:		     Shane Skinner
+	Date Created:    04-21-2014
+	Last Updated:    04-22-2014
+    Webpage URL:     www.shaneskinner.com
+    Program URL:     www.shaneskinner.com
+    Purpose:         This stylesheet is for IE9 and older.
+*/
+
+/*********** Reset **********/
+
+html, body {
+	margin: 0px;
+	padding: 0px;
+}
+
+header, aside, figure, div, article, section, nav {
+	display: block;
+}
+/*********** Header **********/
+
+header aside figure img {
+	border-radius: 0px;
+	box-shadow: none;
+	margin-left: 10px;
+}
+
+.nav {
+	float: none;
+	margin-left: 25%;
+	width: 60%;
+}
+
+header h1 {
+	float: none;
+	margin-top: 80px;
+	text-align: center;
+	text-indent: 0px;
+	width: 100%;
+}
+
+/*********** Main Body **********/
+
+.main {
+	clear: both;
+}
+
+.mainheadings {
+	border-radius: 0px;
+}
+

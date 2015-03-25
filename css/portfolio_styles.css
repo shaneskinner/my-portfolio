@@ -1,0 +1,103 @@
+﻿/*
+	Program:         CSS Stylesheet for: 
+    File Name:       portfolio_styles.css
+	Author:		     Shane Skinner
+	Date Created:    03-26-2014
+	Last Updated:    04-22-2014
+    Webpage URL:     www.shaneskinner.com/portfolio
+    Program URL:     www.shaneskinner.com
+*/
+
+/* Main Portfolio Styles */
+
+.main {
+	width: 80%;
+}
+
+.main h2 {
+	margin: 50px auto;
+	text-align: center;
+}
+
+.main article {
+	clear: both;
+	margin-bottom: 50px;
+}
+
+.main article h3 {
+	text-align: left;
+}
+
+.main a h3:hover {
+	text-decoration: underline;
+}
+
+.main article blockquote {
+	font-size: 1.4em;
+}
+
+.main article iframe {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+#shellscakes {
+	background: url('http://www.shaneskinner.com/images/shellscakes.jpg') no-repeat;
+	height: 275px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 602px;
+}
+
+@media screen and (min-width: 1300px) {
+	iframe {
+		height: 700px;
+	}
+}
+
+@media screen and (min-width: 500px) and (max-width: 699px) {
+
+	.main h2 {
+		margin: 0px auto 30px auto;
+    }
+
+	#shellscakes {
+		background: url('http://www.shaneskinner.com/images/shellscakes_mid.jpg') no-repeat;
+		height: 206px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 452px;
+	}
+
+	iframe {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 499px) {
+
+	.main {
+		width: 98%;
+	}
+
+	.main h2 {
+		margin: 30px auto;
+	}
+
+	.main article {
+		width: 100%;
+	}
+
+	#shellscakes {
+		background: url('http://www.shaneskinner.com/images/shellscakes_sm.jpg') no-repeat;
+		height: 113px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 247px;
+	}
+
+	iframe {
+		width: 90%;
+	}
+}
