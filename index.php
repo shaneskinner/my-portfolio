@@ -6,12 +6,12 @@
     File Name:        index.php
     Author:           Shane Skinner
     Date Created:     03-13-2014
-    Last Revised:     03-25-2015
+    Last Revised:     03-31-2015
     Version:          2.0.2
 -->
 
 <!-- Google Fonts -->
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,400italic' rel='stylesheet' 
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900,400italic' rel='stylesheet' 
       type='text/css'>
 
     <meta charset="UTF-8" />
@@ -70,6 +70,7 @@
     <footer>
       <?php include "php/footer.php";?>
     </footer>
+
 <!-- JavaScript Files -->
     <script src="js/modernizr.js" type="text/javascript"></script>
     <script src="js/stringReverse.js" type="text/javascript"></script>
@@ -77,6 +78,7 @@
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 
+<!-- Hamburger menu for mobile/small screens -->
     <script type="text/javascript">
       jQuery(document).ready(function($){
 
@@ -89,6 +91,15 @@
           $(this).toggleClass("active");
         });
       });
+    </script>
+
+<!-- Script to pull data from a JSON file -->
+    <script type="text/javascript"> 
+      $(document).ready(function() {
+        $.getJSON('_data/me.json', function(me) {
+          var name = me.name;                                 // NEEDS TESTING
+        }); // get json
+      }); //ready
     </script>
   </body>
 </html>
