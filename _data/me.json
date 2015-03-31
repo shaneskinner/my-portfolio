@@ -1,0 +1,16 @@
+/*
+   This JSON file consists of my personal information and links so the data can be updated and parsed into my site easily.
+*/
+
+{
+	"name"       :  "Shane Skinner",
+	"shortname"  :  "shane_skinner",
+	"title"      :  "Front-End Web Developer",
+	"location"   :  "Cape Cod",
+	"links"      :  [
+	   { "website"   :  "http://www.shaneskinner.com" },
+	   { "github"    :  "http://github.com/shaneskinner" },
+	   { "linkedin"  :  "http://www.linkedin.com/in/shaneskinner696" },
+	   { "twitter"   :  "http://twitter.com/shaneskinner" }
+	]
+}
