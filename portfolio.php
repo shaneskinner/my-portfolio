@@ -59,14 +59,6 @@
       </article>
 
       <article>
-        <a href="http://www.ShellsCakes.com" title="www.shellscakes.com" target="_blank"><h3>www.shellscakes.com</h3></a>
-        <blockquote>I redesigned and developed a website for a small cake-decorating business. The site utilizes a 
-                    background created by a graphic designer and several photos of cakes and other products. Cross-browser 
-                    compatibility has been tested.</blockquote>
-        <div class="portfolioImg" id="shellscakes"></div>
-      </article>
-
-      <article>
         <a href="http://www.ClutteredDesk.com" title="www.cluttereddesk.com" target="_blank">
            <h3>www.cluttereddesk.com</h3></a>
         <blockquote>I developed a WordPress blog for a couple of world travelers. They desired a simple site that allows 
@@ -74,6 +66,14 @@
                     their ratings and feedback from their Vivino account.</blockquote>
         <iframe src="http://www.cluttereddesk.com" name="cluttereddesk" height= 600px 
                 width= 100%>ClutteredDesk.com</iframe>
+      </article>
+
+      <article>
+        <a href="http://www.ShellsCakes.com" title="www.shellscakes.com" target="_blank"><h3>www.shellscakes.com</h3></a>
+        <blockquote>I redesigned and developed a website for a small cake-decorating business. The site utilizes a 
+                    background created by a graphic designer and several photos of cakes and other products. Cross-browser 
+                    compatibility has been tested.</blockquote>
+        <div class="portfolioImg" id="shellscakes"></div>
       </article>
 
       <article>
