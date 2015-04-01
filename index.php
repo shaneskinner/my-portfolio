@@ -6,7 +6,7 @@
     File Name:        index.php
     Author:           Shane Skinner
     Date Created:     03-13-2014
-    Last Revised:     03-31-2015
+    Last Revised:     04-01-2015
     Version:          2.0.2
 -->
 
@@ -21,8 +21,8 @@
                                       HTML5, CSS, JavaScript, WordPress, and more technologies." />
     <meta name="keywords" content="Web, Developer, Designer, Software, Website, HTML, HTML5, CSS, CSS3, JavaScript, 
                                    JS, JQuery, PHP, WordPress, WP, Domain, Host, eResume, resume, hire, me, job, 
-                                   seeker, freelance, freelancer, Cape, Cod, Hyannis, Barnstable, Fall River, New Bedford, 
-                                   Massachusetts, MA" />
+                                   seeker, freelance, freelancer, Cape Cod, Cape, Cod, Hyannis, Barnstable, Fall River, 
+                                   New Bedford, Massachusetts, MA" />
     <meta name="geo.region" content="US-MA" />
     <meta name="geo.placename" content="Hyannis" />
     <meta name="geo.position" content="41.655011;-70.278398" />
@@ -49,6 +49,8 @@
     		<p>Front-End Web Developer with experience coding, testing, debugging, and launching responsive websites 
            that include cross-browser functionalities looking for a full-time opportunity within an organization 
            on Cape Cod that has a good team-oriented learning environment.</p>
+        <p>I am also available to take on additional freelance projects. Let's talk to see how I can help you 
+           achieve your goals.</p>
     	</article>
     	<article>
     		<h2 class="mainheadings">Skills and Qualifications</h2>
@@ -91,15 +93,6 @@
           $(this).toggleClass("active");
         });
       });
-    </script>
-
-<!-- Script to pull data from a JSON file -->
-    <script type="text/javascript"> 
-      $(document).ready(function() {
-        $.getJSON('_data/me.json', function(me) {
-          var name = me.name;                                 // NEEDS TESTING
-        }); // get json
-      }); //ready
     </script>
   </body>
 </html>
