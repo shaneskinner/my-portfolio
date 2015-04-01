@@ -82,7 +82,12 @@
           <li>Creating Responsive Web Design - <span class = "italics">Udemy</span></li>
           <li>Getting Started with Google Analytics - <span class = "italics">Udemy</span></li>
           <li>Using Chrome Developer Tools - <span class = "italics">Udemy</span></li>
-    	   </ul>
+          <li>HTML5: Structure, Syntax, and Semantics - <span class = "italics">Lynda.com</span></li>
+          <li>GitHub for Web Designers - <span class = "italics">Lynda.com</span></li>
+          <li>JavaScript and JSON - <span class = "italics">Lynda.com</span></li>
+          <li>JavaScript and AJAX - <span class = "italics">Lynda.com</span></li>
+          <li>Up and Running with AngularJS - <span class = "italics">Lynda.com</span></li>
+    	  </ul>
     	</article>
     </section>
 
