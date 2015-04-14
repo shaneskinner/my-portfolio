@@ -6,7 +6,7 @@
     File Name:        freelance.php
     Author:           Shane Skinner
     Date Created:     03-26-2014
-    Last Revised:     04-01-2015
+    Last Revised:     04-13-2015
     Version:          2.0
 -->
 
@@ -16,6 +16,8 @@
 
 <!-- Meta Data -->
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Shane Skinner" />
     <meta name="description" content="Web Developer Shane Skinner's eResume website." />
     <meta name="keywords" content="Web, Developer, Designer, Software, Website, HTML, HTML5, CSS, CSS3, JavaScript, 
@@ -74,6 +76,12 @@
 
         to discuss your needs.</p>
     </section>
+
+    <article id="bluehost">
+      <a href="//www.bluehost.com/track/shaneskinner/freelanceSidebar" target="_blank"> 
+      <img border="0" src="//bluehost-cdn.com/media/partner/images/shaneskinner/120x240/bh-ppc-banners-dynamic-120x240.png">
+      </a>
+    </article>
 
     <footer>
       <?php include "php/footer.php";?>

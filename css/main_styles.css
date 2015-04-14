@@ -328,6 +328,14 @@ em {
     align-self: center;
 }
 
+/* Affiliate Sidebar */
+
+#bluehost {
+	float: right;
+	margin: -300px 0px 5px 5px;
+	padding: 5px;
+}
+
 /* Footer Styles */
 
 footer {
@@ -839,6 +847,12 @@ footer {
 
 @media screen and (max-width: 299px) {
 	.snhu {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 599px) {
+	#bluehost {
 		display: none;
 	}
 }

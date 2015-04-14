@@ -16,6 +16,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="Shane Skinner" />
     <meta name="description" content="Shane Skinner is a Front-End Web Developer who codes responsive websites utilizing 
                                       HTML5, CSS, JavaScript, WordPress, and more technologies." />
